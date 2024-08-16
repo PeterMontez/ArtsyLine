@@ -18,7 +18,7 @@ public class SVGMaker
 <svg width='{imageSize[0]}' height='{imageSize[1]}' xmlns='http://www.w3.org/2000/svg'>";
     }
 
-    public void NewLine(Point[] points)
+    public void NewLine(PointD[] points)
     {
         svgContent += @"
     <polyline points='";
