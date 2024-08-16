@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\ArtsyLine.csproj": {}
+    "C:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\ArtsyLine.csproj": {}
   },
   "projects": {
-    "c:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\ArtsyLine.csproj": {
+    "C:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\ArtsyLine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\ArtsyLine.csproj",
+        "projectUniqueName": "C:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\ArtsyLine.csproj",
         "projectName": "ArtsyLine",
-        "projectPath": "c:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\ArtsyLine.csproj",
+        "projectPath": "C:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\ArtsyLine.csproj",
         "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\obj\\",
+        "outputPath": "C:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config"

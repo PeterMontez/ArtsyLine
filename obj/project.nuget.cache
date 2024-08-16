@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r8YqwCRAxJQ=",
+  "dgSpecHash": "D3cGnF20SKc=",
   "success": true,
-  "projectFilePath": "c:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\ArtsyLine.csproj",
+  "projectFilePath": "C:\\Users\\peter\\OneDrive\\Área de Trabalho\\ArtsyLine\\ArtsyLine.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\peter\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
     "C:\\Users\\peter\\.nuget\\packages\\system.drawing.common\\8.0.8\\system.drawing.common.8.0.8.nupkg.sha512"

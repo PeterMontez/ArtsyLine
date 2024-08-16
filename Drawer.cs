@@ -41,7 +41,10 @@ public class Drawer
         //Amount of bytes in byteArr that compose 1 full line, not considering compression.
         int BytesPerLine = RowsPerLine * imageSize[0];
 
-        PointD[] points = new PointD[hCompression * 2];
+        //Amount of horizontal groupings per drawn line
+        int BlocksPerLine = BytesPerRow / hCompression;
+
+        PointD[] points = new PointD[BlocksPerLine * 2];
 
         for (int i = 0; i < lines; i++)
         {
@@ -55,17 +58,18 @@ public class Drawer
                 {
                     for (int l = 0; l < RowsPerLine; l++)
                     {
-                        blockAvg += byteArr[i*RowsPerLine + l*BytesPerLine + j + k];
+                        blockAvg += byteArr[i*BytesPerLine + l*BytesPerLine + j + k];
                     }
                 }
                 blockAvg /= RowsPerLine * hCompression;
                 double deviation = RowsPerLine/2 * blockAvg / 255;
-                points[count] = new PointD(j,(RowsPerLine/2) + i + deviation);
-                points[count+1] = new PointD(j+(hCompression/2),(RowsPerLine/2) + i - deviation);
+                points[count] = new PointD(j,(RowsPerLine/2) + i*RowsPerLine + deviation);
+                points[count+1] = new PointD(j+(hCompression/2),(RowsPerLine/2) + i*RowsPerLine - deviation);
                 count += 2;
             }
             
             maker.NewLine(points);
+            System.Console.WriteLine($"Writing line {i}");
         }
         maker.Close();
     }
