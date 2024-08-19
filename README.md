@@ -29,7 +29,7 @@ This is a 400x400 image, converted to black and white. To yield better results, 
 
 
 This is a screenshot of the final generated image. The full size SVG generated file is on https://github.com/PeterMontez/ArtsyLine/blob/main/img/test.svg
-![Generated Image]([https://github.com/PeterMontez/ArtsyLine/blob/main/img/test.svg](https://github.com/PeterMontez/ArtsyLine/blob/main/img/Generated%20Image%20Example.png)?raw=true)
+![Generated Image](https://github.com/PeterMontez/ArtsyLine/blob/main/img/Generated%20Image%20Example.png?raw=true)
 
 ## How to Run
 
