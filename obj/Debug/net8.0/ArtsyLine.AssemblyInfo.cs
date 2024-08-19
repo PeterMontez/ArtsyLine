@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArtsyLine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7dbbf60f71489115962adff7c9c91625c4e4802")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37b3b912a3d432f514762dec1ffaf3345e5393d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArtsyLine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArtsyLine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
